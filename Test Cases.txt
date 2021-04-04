@@ -1,0 +1,30 @@
+Test Cases
+
+Assumption:
+	As temperature sensor is not available, following cases are used to test the code. 
+
+
+
+1) Sample Test Cases:
+	
+	1. Make Sure That MANUAL_TEST macro is defined at the time of Compilation.
+	2. By doing this the user will be asked to enter 10 Inputs.
+	3. Enter Numerical data for initial Verification.
+	4. Enter a non numeriacal charecter to check weather porgram is prompting user for valid input or not.
+	5. Check Weather iteration is resumed from the same place where user got promted for Valid Input.
+	6. Continue giving Inputs with some charecters in between as explained above.
+	7. Make sure to give negative values too.
+	8. After entering 10 Values Observe the Averages in Centigrade and Fahrenheit with 0.1%
+
+2) Internal Test Cases:
+
+	1. Make Sure That SELF_TEST macro is defined at the time of Compilation.
+	2. By doing this the program will call a function that generates random temperature samples and will return total value.
+	3. As it is an infinite process the averages of temperatures in centigrades and fharenheit are displayed on console with 0.1 resolution
+	
+	
+	
+	
+Note:-
+		*The range of temperature readings on Self Test Mode Can Be adjusted by Changing TEST_RANGE Variable which generates in both positive and negative ranges.
+		
